@@ -30,7 +30,7 @@ import {
 } from './schema';
 import type { ArtifactKind } from '@/components/artifact';
 import { generateUUID } from '../utils';
-import { generateHashedPassword } from './utils';
+import { generateHashedPassword } from './utils.node';
 import type { VisibilityType } from '@/components/visibility-selector';
 import { ChatSDKError } from '../errors';
 
