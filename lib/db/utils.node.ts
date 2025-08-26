@@ -1,3 +1,4 @@
+// lib/db/utils.node.ts
 import { generateId } from 'ai';
 import { genSaltSync, hashSync } from 'bcrypt-ts';
 
