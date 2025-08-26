@@ -1,5 +1,5 @@
 // lib/constants.ts
-import { generateDummyPassword } from './db/utils.node';
+import { generateDummyPassword } from './db/utils'; // <-- update path
 
 // Environment flags
 export const isProductionEnvironment = process.env.NODE_ENV === 'production';
